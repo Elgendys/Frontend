@@ -52,7 +52,7 @@ stage('copyfiles'){
       }
 }
 }
-      }
+      
  stage ('Run Containers'){
        steps {
           node('frontend-1') {
@@ -64,6 +64,8 @@ stage('copyfiles'){
 }
 }
       }
+    
+}
 
 
 
