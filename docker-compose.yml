@@ -1,0 +1,19 @@
+version: '3'
+services:
+
+  frontend-1:
+    build: .
+    ports:
+    - "4030:4200"
+
+
+  frontend-2:
+    build: .
+    ports:
+    - "4040:4200"
+
+  frontend-3:
+    build: .
+    ports:
+    - "4050:4200"
+
